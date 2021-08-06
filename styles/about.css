@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Revalia&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(14, 13, 13, 0.89);
+  color: #ffffff;
+  font-family: "Revalia", cursive;
+}
+.biography {
+  margin:  70px 200px 200px;
+}
+.biography h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 100;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 189px;
+  background-color: #deaf09;
+}
+.menu ul li {
+  font-family: "Revalia", cursive;
+  list-style: none;
+  font-size: 36px;
+  color: #000000;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+.menu-title {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.menu .menu-items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.menu-items li {
+  margin-right: 20px;
+}
+.intro {
+  display: flex;
+}
+.intro img {
+  width: 445px;
+  height: 219px;
+  border-radius: 10px;
+}
+.intro p {
+  margin: 0px 0px 0px 20px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 100;
+}
+.momentOne,
+.momentTwo,
+.momentThree,
+.momentFour,
+.momentFive {
+  display: flex;
+  margin-top: 90px;
+}
+
+
+.momentTwo-text h2, 
+.momentFour-text h2
+ {
+  text-align: left;
+  margin: 0px 0px 0px 20px;
+}
+.momentOne-text h2, 
+.momentThree-text h2,
+.momentFive-text h2{
+    text-align: left;
+}
+
+.momentTwo-text p,
+.momentFour-text p
+ {
+  text-align: left;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 100;
+  margin-left: 20px;
+}
+.momentOne-text p,
+.momentThree-text p, 
+.momentFive-text p{
+    text-align: left;
+    font-size: 18px;
+    line-height: 30px;
+   font-weight: 100;
+ 
+}
+.momentOne img,
+.momentTwo img,
+.momentThree img,
+.momentFour img,
+.momentFive img {
+  width: 439px;
+  height: 435px;
+  border-radius: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.footer img{
+    margin: 0px 10px;
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 1024px) { 
+  .biography{
+    margin: 70px 30px 200px;
+  }
+  .momentOne-text h2, .momentTwo-text h2, .momentThree-text h2, .momentFour-text h2, .momentFive-text h2{
+    font-size: 24px;
+  }
+  .intro p{
+    font-size: 16px;
+  }
+  .momentOne-text p, .momentTwo-text p, .momentThree-text p, .momentFour-text p, .momentFive-text p{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+.menu ul li{
+  font-size: 12px;
+}
+.biography h2{
+  font-size: 22px;
+
+}
+.intro{
+  display: flex;
+  flex-direction: column;
+}
+.intro img{
+  width: 266px;
+height: 170px;
+}
+.intro p{
+  margin: 15px 0px 0px 20px;
+}
+.momentOne{
+  display: flex;
+flex-direction: column;
+position: relative;
+}
+.momentOne, .momentThree, .momentFour, .momentFive{
+  display: flex;
+flex-direction: column;
+}
+
+.momentOne-text{
+  position: absolute;
+}
+.momentOne-text h2{
+  margin-top: 227px;
+  font-size: 19px;
+}
+.momentOne-text p{
+  margin-top: 11px;
+}
+.momentTwo{
+  display: flex;
+  flex-direction: column;
+  margin-top: 327px;
+}
+.momentTwo h2{
+  margin-top: 15px;
+}
+.momentThree{
+  margin-top: 35px;
+}
+.momentThree-text{
+  position: absolute;
+}
+.momentThree-text h2{
+  margin-top: 217px;
+}
+.momentFour{
+  margin-top:291px;
+}
+.momentFive-text{
+  position: absolute;
+}
+.momentFive-text h2{
+  margin-top: 211px;
+}
+.momentOne img,.momentTwo img, .momentThree img, .momentFour img, .momentFive img{
+  width: 266px;
+height: 208px;
+}
+.footer{
+  position: absolute;
+margin-top: 131px;
+display: flex;
+justify-content: center;
+margin-left: 35px;
+
+}
+}
+
+

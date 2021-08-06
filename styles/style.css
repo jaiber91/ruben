@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #DEAF09;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 189px;
+    position: absolute;
+    top: -26px;
+    color: white;
+
+    /*background-color: #DEAF09;*/
+    opacity: 0;
+}
+.menu ul li {
+    font-family: "Revalia", cursive;
+    list-style: none;
+    font-size: 36px;
+    color: #ffffff;
+  }
+  .menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+.menu-title{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.menu .menu-items{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+.menu-items li{
+    margin-right: 20px;
+}
+.coverPage{
+    width: 100%;
+    height: 840px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.coverPage-big{
+    width: 100%;
+    height: 840px;
+    position: absolute;
+}
+.coverPage-arrow{
+    position: absolute;
+    margin-top: 40%;
+    width: 40px;
+    height: 40px;
+    animation: arrow 1s ease-in-out infinite;
+}
+@keyframes arrow {
+    0% {
+    transform: translate(0px, 50px);
+    }
+    50% {
+    transform: translate(0px, 60px);
+    }
+    100% {
+    transform: translate(0px, 50px);
+    }
+    }
+.appMusic{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.appMusic a{
+    text-decoration: none;
+    padding: 9px 20px 0px 3px;
+    color: #0A6092;
+    font-size: 24px;
+}
+.appMusic img{
+    width: 40px;
+    height: 40px;
+}
+.categories{
+    display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.categories-sub{
+    margin-right: 70px;
+}
+.categories-sub--albums{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 492px;
+    height: 300px;
+    margin-bottom: 30px;
+    position: relative;
+    transition: all 0.25s;
+}   
+.categories-sub--albums:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.categories-sub--albums img{
+    position: absolute;
+    width: 492px;
+    height: 300px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+
+}
+.categories-sub--albums p{
+    position: absolute;
+    font-family: 'Revalia', cursive;
+    color: #ffffff;
+    font-size: 24px;
+    text-shadow: 0px 4px 4px rgba(248, 243, 243, 0.3)
+}
+.categories-sub--awards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 492px;
+    height: 300px;
+    position: relative;
+    transition: all 0.25s;
+}
+.categories-sub--awards:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  }
+.categories-sub--awards img{
+    position: absolute;
+    width: 492px;
+    height: 300px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+}
+.categories-sub--awards p{
+    position: absolute;
+    font-family: 'Revalia', cursive;
+    color: #ffffff;
+    font-size: 24px;
+    text-shadow: 0px 4px 4px rgba(248, 243, 243, 0.3)
+
+}
+.categories-sub2{
+    margin-left: 70px;
+}
+.categories-sub2--movies{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    width: 492px;
+    height: 300px;
+    margin-bottom: 30px;
+    transition: all 0.25s;
+}
+.categories-sub2--movies:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  }
+.categories-sub2--movies img{
+    position: absolute;
+    width: 492px;
+    height: 300px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+}
+.categories-sub2--movies p{
+    position: absolute;
+    font-family: 'Revalia', cursive;
+    color: #ffffff;
+    font-size: 24px;
+    text-shadow: 0px 4px 4px rgba(248, 243, 243, 0.3)
+
+}
+.categories-sub2--songs{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    width: 492px;
+    height: 300px;
+    transition: all 0.25s;
+}
+.categories-sub2--songs:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  }
+.categories-sub2--songs img{
+    position: absolute;
+    width: 492px;
+    height: 300px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+}
+.categories-sub2--songs p{
+    position: absolute;
+    font-family: 'Revalia', cursive;
+    color: #ffffff;
+    font-size: 24px;
+    text-shadow: 0px 4px 4px rgba(248, 243, 243, 0.3)
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.footer img{
+    margin: 0px 10px;
+    width: 40px;
+    height: 40px;
+}
+@media (max-width: 1024px) {
+    .menu{
+        width: 93%;
+    }
+    .menu ul li{
+        font-size: 30px;
+    }
+    .coverPage-arrow{
+        margin-top: 60%;
+    }
+    .categories-sub{
+        margin-left: 70px;
+    }
+    .categories-sub--albums{
+        width: 400px;
+        height: 200px;
+        
+    }
+    .categories-sub--albums img{
+        width: 400px;
+        height: 200px;
+    }
+    .categories-sub--awards{
+        width: 400px;
+        height: 200px;
+    }
+    .categories-sub--awards img{
+        width: 400px;
+        height: 200px;
+    }
+    .categories-sub2 {
+        margin-right: 70px;
+    }
+    .categories-sub2--movies{
+        width: 400px;
+        height: 200px;
+    }
+    .categories-sub2--movies img{
+        width: 400px;
+        height: 200px;
+    }
+    .categories-sub2--songs{
+        width: 400px;
+        height: 200px;
+    }
+    .categories-sub2--songs img{
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 768px) { 
+    .menu{
+        width: 100%;
+    }
+    .menu ul li{
+    font-size: 30px;
+    }
+    .coverPage{
+        width: 100%;
+    }
+    .coverPage-big{
+        width: 100%;
+    }
+    .coverPage-arrow{
+        margin-top: 80%;
+    }
+    .categories-sub{
+        margin-right: 0px;
+    }
+    .categories-sub--albums{
+        width: 300px;
+        height: 150px;
+    }
+    .categories-sub--albums img{
+        width: 300px;
+        height: 150px;
+    }
+    .categories-sub--awards{
+        width: 300px;
+        height: 150px;
+    }
+    .categories-sub--awards img{
+        width: 300px;
+        height: 150px;
+    }
+    .categories-sub2--movies{
+        width: 300px;
+        height: 150px;
+    }
+    .categories-sub2--movies img{
+        width: 300px;
+        height: 150px;
+    }
+    .categories-sub2--songs{
+        width: 300px;
+        height: 150px;
+    }
+    .categories-sub2--songs img{
+        width: 300px;
+        height: 150px;
+    }
+}
+
+@media(max-width: 320px) {
+    .coverPage{
+        height: 669px;
+    }
+    .coverPage-arrow{
+        margin-top: 60%;
+    }
+    .menu ul li{
+        font-size: 12px;
+    }
+    .coverPage-big {
+        width: 100%;
+        height: 50%;
+    }
+    .appMusic{
+        margin-top: -271px;
+    }
+    .appMusic img {
+        width: 20px;
+        height: 20px;
+    }
+    .appMusic a{
+        padding: 1px 20px 0px 3px;
+        font-size: 14px;
+    }
+    .categories{
+        display: flex;
+        flex-direction: column;
+    }
+    .categories-sub{
+        display: flex;
+        flex-direction: column;
+        width: 124%;
+        margin-left: 10px;
+    
+    }
+    .categories-sub2{
+        display: flex;
+        flex-direction: column;
+        width: 124%;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+}

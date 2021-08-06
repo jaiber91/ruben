@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: rgba(14, 13, 13, 0.89);
+    color: #ffffff;
+    font-family: "Revalia", cursive;
+    
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 189px;
+    background-color: #deaf09;
+    
+  }
+  .menu ul li {
+    font-family: "Revalia", cursive;
+    list-style: none;
+    font-size: 36px;
+    color: #000000;
+  }
+  .menu ul li a {
+    text-decoration: none;
+    color: #000000;
+  }
+  .menu-title {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  .menu .menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .menu-items li {
+    margin-right: 20px;
+  }
+
+.tourPosters{
+    display: flex;
+    justify-content: center;
+}
+.tourPosters img{
+    width: 390px;
+    height: 650px;
+    border-radius: 10px;
+    margin: 40px 40px 0px 0px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.footer img{
+    margin: 0px 10px;
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 1024px) {
+  .tourPosters img{
+    width: 263px;
+    height: 551px;
+    margin: 40px 30px 0px 0px;
+  }
+}
+@media (max-width: 768px) {
+  .tourPosters img{
+    width: 209px;
+    height: 495px;
+  }
+}
+@media (max-width: 320px){
+  .menu ul li{
+    font-size: 12px;
+  }
+  .tourPosters {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .tourPosters img{
+    margin: 40px 0px 0px 0px;
+  }
+}

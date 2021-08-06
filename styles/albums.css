@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: rgba(14, 13, 13, 0.89);
+    color: #ffffff;
+    font-family: "Revalia", cursive;
+    
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 189px;
+    background-color: #deaf09;
+    
+  }
+  .menu ul li {
+    font-family: "Revalia", cursive;
+    list-style: none;
+    font-size: 36px;
+    color: #000000;
+  }
+  .menu ul li a {
+    text-decoration: none;
+    color: #000000;
+  }
+  .menu-title {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  .menu .menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .menu-items li {
+    margin-right: 20px;
+  }
+.allAlbums{
+    display: flex;
+    justify-content: center;
+}
+.allAlbums h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 100;
+    color: #ffffff;
+}
+.allAlbums-bloq{
+    display: flex;
+    flex-direction: column;
+}
+.allAlbums-bloq--first{
+margin-top: 90px;
+}
+.allAlbums-bloq--second{
+    margin-top: 90px;
+}
+.allAlbums-bloq--first img, .allAlbums-bloq--second img {
+      width: 224px;
+      height: 241px;
+      border-radius: 10px;
+      margin-right: 70px;
+  }
+
+  .footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.footer img{
+    margin: 0px 10px;
+    width: 40px;
+    height: 40px;
+}
+@media (max-width: 1024px) {
+  .allAlbums-bloq--first {
+    margin-left: 50px;
+}
+.allAlbums-bloq--second{
+  margin-left: 50px;
+}
+}
+
+@media (max-width:768px){
+  .allAlbums-bloq--first img, .allAlbums-bloq--second img {
+    width: 188px;
+    height: 241px;
+    border-radius: 10px;
+    margin-right: 36px;
+}
+}
+
+@media (max-width:320px){
+  .menu ul li{
+    font-size: 12px;
+}
+.allAlbums-bloq--first{
+  margin-top: 36px;
+}
+.allAlbums-bloq--first img{
+  margin-bottom: 20px;
+}
+.allAlbums-bloq--second {
+  margin-top: 3px;
+}
+.allAlbums-bloq--second img{
+  margin-bottom: 20px;
+}
+.allAlbums-bloq--first img, .allAlbums-bloq--second img {
+  width: 227px;
+  height: 252px;
+}
+}
